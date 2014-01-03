@@ -1,0 +1,55 @@
+﻿.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+img {
+  max-width: 100%;
+  max-height: 80%;
+}
+    
+@font-face
+{
+font-family: myFirstFont;
+src: url(../../fonts/AmericanCaptain.OTF);
+}
+h1 {text-align: center; font-family: myFirstFont;font-size: 170px;margin-top:0px;margin-bottom: 10px;}
+form input.in {
+  background-color:#F4F54F;
+  border:2px dashed #000000;
+  box-sizing:border-box;
+  color:#999999;
+  font-family:source-code-pro, sans-serif;
+  font-size:1.25em;
+  margin:0.25em 25% 0.25em;
+  outline:none;
+  padding:5px;
+  width:50%;
+}
+form input.sub {
+	background-color:#66FF99;
+	border:2px dashed black;
+	font-family:Source Code Pro, sans-serif;
+	font-size:1.25em;
+	width:100%;	
+	cursor:pointer;
+}
+.button {
+    color:black;
+    font-family:Source Code Pro, sans-serif;    font-size:100%;
+    background:fuchsia;
+    border:2px dashed black;
+    width:100%;
+    cursor:pointer;
+    padding:10px;
+}
+.auto-style1 {
+font-family: Aharoni;
+}
+
+
