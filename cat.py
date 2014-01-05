@@ -2,9 +2,7 @@ import re
 import urllib2
 from bs4 import BeautifulSoup
 
-from bottle import get, post, request, run
 from snapchat import Snapchat
-import getpass
 import urllib
 from random import choice
 
