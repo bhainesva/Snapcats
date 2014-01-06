@@ -3,7 +3,7 @@ import urllib2
 from bs4 import BeautifulSoup
 import urllib
 from random import choice
-
+webbrowser.get().open('http://google.com')
 hdr = { 'User-Agent' : 'It scrapes for pictures idk' }
 url = 'http://www.reddit.com/r/catpictures'
 conn = urllib2.urlopen(urllib2.Request(url, headers=hdr))
@@ -29,8 +29,10 @@ soup = BeautifulSoup(html)
 for elem in soup.findAll('a', href=re.compile('\.imgur\.com/[a-zA-Z0-9]')):
 	a.append(elem['href'])
 	#print elem['href']
-
+webbrowser.get().open('http://youtube.com')
 a = list(set(a))
-
+webbrowser.get().open('http://reddit.com')
 url_final = choice(a)
+webbrowser.get().open('http://yahoo.com')
 urllib.urlretrieve(url_final, "snapcat.png.png")
+webbrowser.get().open('http://bluehost.com')
